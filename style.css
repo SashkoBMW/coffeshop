@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-image: url(images/coffee.png);
+    color: rgb(91, 14, 190);
+}
+#karta {
+    color: rgb(124, 8, 8);
+}
+button {
+    height: 30px;
+    background-color: blueviolet;
+    color: red;
+}
+input {
+    height: 20px;
+}

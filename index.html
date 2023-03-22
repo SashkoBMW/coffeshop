@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Proba1</title>
+    </head>
+    <body>
+        <h1>Dobrodošli u naš kafić</h1>
+        <div class="stolovi">
+            Narudžbina:<br>
+                 
+            <input type="number" min="1" value="1" max="20" class="broj" > Količina
+            
+            <input type="number" min="0" max="7" value="1" class="cena"> Piće
+            <button type="submit" onclick="dodaj(this)">Potvrdi</button>
+            <p>Saldo:</p>
+            <p class="totalno">Total</p>
+<button id="brisanje" onclick="izbrisi(this)">Izbriši</button>
+        </div>
+        
+        <div id="karta">
+            <h3>Karta pića</h3>
+            <ul>
+                <li id="1">0 Espresso <span>130</span> dinara</li>
+                <li id="2">1 Kisela voda <span>100</span> dinara</li>
+                <li id="3">2 Đus <span>140</span> dinara</li>
+                <li id="4">3 Pelinkovac <span>150</span> dinara</li>
+                <li id="5">4 Viski <span>200</span> dinara</li>
+                <li id="6">5 Pivo <span>230</span> dinara</li>
+                <li id="7">6 Vino <span>250</span> dinara</li>
+                
+
+            </ul>
+        </div>
+
+
+<script src="script.js"></script>
+    </body>
+</html>
